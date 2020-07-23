@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "848491354663",
+    "firebase_url": "https://letsreviewapp.firebaseio.com",
+    "project_id": "letsreviewapp",
+    "storage_bucket": "letsreviewapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848491354663:android:eeb87d8100ba2724e90c02",
+        "android_client_info": {
+          "package_name": "com.caca.letsreview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848491354663-lcd2lb413p1858vs334a4u315vflbqok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.caca.letsreview",
+            "certificate_hash": "a6649a21261f2c99e9e788d13219d6bf996694df"
+          }
+        },
+        {
+          "client_id": "848491354663-47ulj5nojrinfhg89j3noutg8uuh91f1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj4TGquH0QdvXKLmMrvpCpul9VqdYPSOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848491354663-47ulj5nojrinfhg89j3noutg8uuh91f1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Register"
+    android:background="@color/LightOrange"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progressBarRegister"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/create_account"
+        android:fontFamily="@font/baloo"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:id="@+id/tvSambutan2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silakan diisi untuk Registrasi"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/tvSambutan"/>
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtEmailRegister"
+        android:hint="Email"
+        android:textSize="25sp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:id="@+id/edtPasswordRegister"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/baloo"
+            android:background="@color/Gold"
+            android:textSize="20sp"
+            android:id="@+id/btnRegisterUser" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Back"
+            android:fontFamily="@font/baloo"
+            android:layout_marginLeft="30dp"
+            android:background="@color/White"
+            android:textSize="20sp"
+            android:id="@+id/btnBackUser" />
+
+    </LinearLayout>
+
+</LinearLayout>

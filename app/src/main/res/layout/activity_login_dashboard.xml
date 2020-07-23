@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.LoginDashboard"
+    android:background="@color/Gold"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+        android:id="@+id/progressBarLogin"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:fontFamily="@font/baloo"
+        android:layout_marginTop="40dp"
+        android:textSize="80dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtEmailLogin"
+        android:hint="Email"
+        android:textSize="25sp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:id="@+id/edtPasswordLogin"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:text="Register"
+            android:fontFamily="@font/baloo"
+            android:background="@color/LightOrange"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:id="@+id/btnRegister1" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:fontFamily="@font/baloo"
+            android:text="Login"
+            android:background="@color/White"
+            android:layout_marginLeft="60dp"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

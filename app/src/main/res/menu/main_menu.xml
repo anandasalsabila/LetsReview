@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_baseline_home_24"
+            android:id="@+id/nav_home"
+            android:title="@string/home" />
+        <item
+            android:icon="@drawable/ic_baseline_movie_24"
+            android:id="@+id/nav_most_viewed"
+            android:title="@string/most_viewed" />
+        <item
+            android:icon="@drawable/ic_baseline_category_24"
+            android:id="@+id/nav_all_categories"
+            android:title="@string/all_categories" />
+    </group>
+
+    <item android:title="@string/profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/ic_baseline_account_circle_24"
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile" />
+                <item
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/actris"
+                    android:id="@+id/nav_drama"
+                    android:title="@string/drama" />
+                <item
+                    android:icon="@drawable/war"
+                    android:id="@+id/nav_action"
+                    android:title="@string/action" />
+                <item
+                    android:icon="@drawable/horror"
+                    android:id="@+id/nav_horror"
+                    android:title="@string/horror" />
+                <item
+                    android:icon="@drawable/thriller"
+                    android:id="@+id/nav_thriller"
+                    android:title="@string/thriller" />
+                <item
+                    android:icon="@drawable/fiction"
+                    android:id="@+id/nav_fiction"
+                    android:title="@string/science_fiction" />
+                <item
+                    android:icon="@drawable/musical"
+                    android:id="@+id/nav_musical"
+                    android:title="@string/musical" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>
