@@ -5,7 +5,8 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Home.UserDashboard">
+    tools:context=".Home.UserDashboard"
+    tools:openDrawer="start">
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_view"
@@ -42,9 +43,9 @@
                 android:layout_height="40dp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:padding="5dp"
-                android:elevation="6dp"
                 android:layout_margin="8dp"
+                android:elevation="6dp"
+                android:padding="5dp"
                 android:src="@drawable/logo" />
         </RelativeLayout>
 
@@ -74,7 +75,7 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="330dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="20dp"
                     android:background="@color/BannerBackground">
@@ -82,9 +83,12 @@
                     <LinearLayout
                         android:id="@+id/featured_background"
                         android:layout_width="170dp"
-                        android:layout_height="280dp"
-                        android:layout_margin="10dp"
-                        android:background="@color/LightOrange"
+                        android:layout_height="320dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#FFFB00"
                         android:orientation="vertical">
 
                         <TextView
@@ -108,10 +112,10 @@
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/featured_recycler"
                         android:layout_width="match_parent"
-                        android:layout_height="305dp"
+                        android:layout_height="325dp"
                         android:layout_marginStart="5dp"
                         android:layout_toEndOf="@id/featured_background"
-                        android:background="@color/HomeBackground" />
+                        android:background="@color/White" />
 
                 </RelativeLayout>
 
@@ -136,12 +140,12 @@
                             android:textSize="20sp" />
 
                         <TextView
+                            android:id="@+id/viewAllMost"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:layout_centerVertical="true"
-                            android:text="@string/view_all"
-                            android:id="@+id/viewAllMost"/>
+                            android:text="@string/view_all" />
 
 
                     </RelativeLayout>
@@ -174,12 +178,12 @@
                             android:textSize="20sp" />
 
                         <TextView
+                            android:id="@+id/viewAllCategories"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:layout_centerVertical="true"
-                            android:text="@string/view_all"
-                            android:id="@+id/viewAllCategories"/>
+                            android:text="@string/view_all" />
 
 
                     </RelativeLayout>
@@ -195,10 +199,10 @@
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
                     android:layout_marginBottom="32dp"
                     android:fontFamily="@font/antic"
                     android:text="@string/powered_by_ananda_salsabila"
-                    android:layout_gravity="center"
                     android:textAlignment="center"
                     android:textSize="18sp"
                     app:layout_constraintBottom_toBottomOf="parent"

@@ -21,7 +21,6 @@ import com.caca.letsreview.Admin.LoginDashboard;
 import com.caca.letsreview.Admin.Profile;
 import com.caca.letsreview.Databases.Categories.Action;
 import com.caca.letsreview.Databases.Categories.Drama;
-import com.caca.letsreview.Databases.Categories.Fiction;
 import com.caca.letsreview.Databases.Categories.Horror;
 import com.caca.letsreview.Databases.Categories.Musical;
 import com.caca.letsreview.Databases.Categories.Thriller;
@@ -164,9 +163,6 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
             case R.id.nav_action:
                 startActivity(new Intent(getApplicationContext(), Action.class));
                 break;
-            case R.id.nav_fiction:
-                startActivity(new Intent(getApplicationContext(), Fiction.class));
-                break;
             case R.id.nav_horror:
                 startActivity(new Intent(getApplicationContext(), Horror.class));
                 break;
@@ -176,8 +172,6 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
             case R.id.nav_thriller:
                 startActivity(new Intent(getApplicationContext(), Thriller.class));
                 break;
-
-
             case R.id.nav_logout:
                 startActivity(new Intent(getApplicationContext(), LoginDashboard.class));
                 break;

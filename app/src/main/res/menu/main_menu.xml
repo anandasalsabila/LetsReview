@@ -51,10 +51,6 @@
                     android:id="@+id/nav_thriller"
                     android:title="@string/thriller" />
                 <item
-                    android:icon="@drawable/fiction"
-                    android:id="@+id/nav_fiction"
-                    android:title="@string/science_fiction" />
-                <item
                     android:icon="@drawable/musical"
                     android:id="@+id/nav_musical"
                     android:title="@string/musical" />
